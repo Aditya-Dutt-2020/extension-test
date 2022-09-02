@@ -1,6 +1,6 @@
 // background.js
 
-let color = '#efe000';
+let color = '#efefff';
 
 chrome.runtime.onInstalled.addListener(() => {
     chrome.storage.sync.set({color});
